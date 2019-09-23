@@ -3,4 +3,5 @@ def example(l):
 
 a=example([1,2,4])
 print(a)
-print(a.__next__())
+print(next(a))
+print(next(a))
